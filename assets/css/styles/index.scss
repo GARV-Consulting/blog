@@ -1,0 +1,74 @@
+.home-wrapper {
+    .box-caption {
+        span {
+            font-size: 17px;
+            text-transform: uppercase;
+            background-color: #e53526;
+            color: #fff;
+            display: inline-block;
+            line-height: 35px;
+            padding: 0px 20px;
+        }
+    }
+    .owl-spotlight {
+        .owl-dots {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            text-align: left;
+            z-index: 999;
+            float: left;
+            opacity: 0;
+            -moz-transition: all ease 0.3s;
+            -o-transition: all ease 0.3s;
+            -webkit-transition: all ease 0.3s;
+            transition: all ease 0.3s;
+        }
+    }
+    #myTabContent {
+        .list-news-popular {
+            list-style: none;
+            padding: 0px;
+            li {
+                padding: 10px 0px 10px 0px;
+                min-height: 84px;
+                border-bottom: 1px solid #eeeeee;
+                img {
+                    width: 70px;
+                    height: 60px;
+                    float: left;
+                    margin: 0px 15px 0px 0px;
+                }
+                h3 {
+                    margin: 0px;
+                    padding: 0px;
+                    font-size: 14px;
+                    a {
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #333;
+                        -moz-transition: all ease 0.3s;
+                        -o-transition: all ease 0.3s;
+                        -webkit-transition: all ease 0.3s;
+                        transition: all ease 0.3s;
+                        font-family: "Open Sans";
+                    }
+                }
+                .meta-post {
+                    margin: 0px;
+                    margin-top: 5px;
+                    a {
+                        color: #999;
+                        -moz-transition: all ease 0.3s;
+                        -o-transition: all ease 0.3s;
+                        -webkit-transition: all ease 0.3s;
+                        transition: all ease 0.3s;
+                    }
+                    span {
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+}

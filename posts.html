@@ -1,0 +1,22 @@
+---
+title: "Posts"
+layout: default
+permalink: "/posts.html"
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h1 class="font-weight-bold title h6 text-uppercase mb-4">Posts</h1>
+            {% for post in site.posts %} 
+        </div>
+        <div class="col-md-8">
+            <h3 class="mb-3">{{post.title}}</h3>
+            <p class="mb-3 lead">
+                {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+            </p>
+            <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
