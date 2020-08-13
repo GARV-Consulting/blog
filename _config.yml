@@ -4,7 +4,7 @@ description: ''
 title: 'Geeks For AI'
 baseurl: ''
 disqus: 'geeksforaiç'
-url: '/'
+url: 'http://geeksforai.com'
 permalink: '/:title/'
 google_analytics: UA—XXXXXXXX-X
 theme: minima
