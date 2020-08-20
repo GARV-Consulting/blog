@@ -74,6 +74,17 @@ body {
             }
         } 
     }
+    .overflow-hidden {
+        overflow: hidden;
+    }
+    #carousel {
+        .owl-height {
+            height: 430px !important;
+        }
+        .owl-nav {
+            display: none;
+        }
+    }
 }
 
 @keyframes logomove { 
